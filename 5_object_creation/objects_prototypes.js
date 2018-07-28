@@ -50,4 +50,6 @@ var foo = Object.create(prot);
 prot.isPrototypeOf(foo); // true
 Object.prototype.isPrototypeOf(foo); // true
 
-// prot is the prototype of foo. Object.prototype is at the end of all prototype chains, hence also a prototype of foo
+// prot is the prototype of foo.
+
+// Since prot was created with the object literal notation, Object.prototype is the prototype of prot by default, hence at the end of all prototype chain of foo
