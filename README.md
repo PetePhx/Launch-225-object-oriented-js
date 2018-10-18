@@ -1,3 +1,3 @@
-# Launch-225-object-oriented-js
+# object-oriented-js
 
-Launch School Course 225: Object Oriented JavaScript
+Object Oriented JavaScript
